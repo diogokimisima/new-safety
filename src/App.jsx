@@ -1,4 +1,5 @@
 import { Clients } from "./components/clients/clients"
+import { Footer } from "./components/footer"
 import { Header } from "./components/header"
 import { Services } from "./components/services/services"
 
@@ -9,6 +10,7 @@ function App() {
       <Header/>
       <Services />
       <Clients />
+      <Footer />
     </div>
   )
 }
