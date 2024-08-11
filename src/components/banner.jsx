@@ -1,6 +1,9 @@
+import ImageBanner from '../assets/banner2.png'
+
 export function Banner() {
     return (
-        <div>
+        <div className=''>
+            <img src={ImageBanner} alt="" />
         </div>
     )
 }

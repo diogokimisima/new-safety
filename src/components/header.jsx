@@ -2,7 +2,7 @@ import Logo from '../assets/logo.jpg'
 
 export function Header() {
     return (
-        <header className="flex w-full px-12 py-5">
+        <header className="flex items-center w-full px-12 py-5">
             <div className="flex-1">
                 <img className="h-12" src={Logo} alt="logo" />
             </div>
@@ -15,4 +15,4 @@ export function Header() {
             </div>
         </header>
     )
-}
+}   
