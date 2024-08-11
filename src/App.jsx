@@ -10,8 +10,8 @@ function App() {
   return (
     <div className=" flex flex-col justify-center mx-auto relative">
       <Header/>
+      <div className="space-y-20">
       <Banner />
-      <div>
       <Sobre />
       <Services />
       <Clients />
