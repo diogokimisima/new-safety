@@ -3,7 +3,7 @@ import { Clients } from "./components/clients/clients"
 import { Footer } from "./components/footer"
 import { Header } from "./components/header"
 import { Services } from "./components/services/services"
-import { Sobre } from "./components/sobre"
+import { About } from "./components/about"
 
 function App() {
 
@@ -12,7 +12,7 @@ function App() {
       <Header/>
       <div className="space-y-20">
       <Banner />
-      <Sobre />
+      <About />
       <Services />
       <Clients />
       <Footer />

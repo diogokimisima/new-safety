@@ -8,10 +8,10 @@ export function Header() {
             </div>
             <div className='flex gap-10'>
                 <a className='text-emerald-600' href="">Início</a>
+                <a href="">Sobre</a>
                 <a href="">Serviços</a>
                 <a href="">Clientes</a>
                 <a href="">Contatos</a>
-                <a href="">História</a>
             </div>
         </header>
     )
