@@ -8,9 +8,9 @@ export function Header() {
             </div>
             <div className='flex gap-10'>
                 <a className='text-emerald-600' href="">Início</a>
-                <a href="">Sobre</a>
-                <a href="">Serviços</a>
-                <a href="">Clientes</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#services">Serviços</a>
+                <a href="#clients">Clientes</a>
                 <a href="">Contatos</a>
             </div>
         </header>

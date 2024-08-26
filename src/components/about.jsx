@@ -1,6 +1,6 @@
 export function About() {
     return (
-        <div className="max-w-[980px] flex flex-col mx-auto">
+        <div id="about" className="max-w-[980px] flex flex-col mx-auto">
             <div className="flex justify-center border-b-4 border-emerald-600 mx-[500px] pb-4">
                 <h2 className="text-blue-950 text-3xl font-bold">Sobre</h2>
             </div>

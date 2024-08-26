@@ -1,21 +1,27 @@
 import { CardServices } from "./card-services";
+import Mission from '../../assets/missao.png'
+import Vision from '../../assets/visao.png'
+import Values from '../../assets/valor.png'
 
 export function Services() {
     return (
         <div className="flex flex-wrap justify-center align-center gap-4">
             <CardServices
                 title="Missão"
-                description="Fornecer soluções de saúde e segurança, com base nas normalizações exigidas, assegurando a integridade física dos colaboradores, atendendo a necessidade do cliente"
+                description="Gerenciar os riscos ocupacionais de forma equilibrada e estratégica, através de soluções informatizadas e indicação de medidas de prevenção de acidentes do trabalho, com o objetivo de proteger a vida e a sociedade, manter ambientes de trabalho saudáveis e garantir a conformidade legal e a sustentabilidade de seus negócios "
+                image={Mission}
             />
 
             <CardServices
                 title="Visão"
-                description="Ser referência no mercado através de práticas inovadoras e adequações as Normas, superando as expectativas do cliente, através da prestação de serviço eficiente e de qualidade"
+                description="Proporcionar uma nova percepção para a segurança e saúde no trabalho do Brasil"
+                image={Vision}
             />
 
             <CardServices
                 title="Valores"
-                description="Transparência, Segurança de Pessoas, Comprometimento, Divisão de riquezas, Satisfação do cliente"
+                description="Reciprocidade. Somos todos ouvidos, mas a partir do entendimento das necessidades de nossos clientes, nossas soluções em segurança e saúde no trabalho somente tem sentido se houver o seu comprometimento proativo com o cumprimento dos planos de ação propostos por nós"
+                image={Values}
             />
 
         </div>

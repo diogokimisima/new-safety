@@ -11,10 +11,10 @@ function App() {
     <div className=" flex flex-col justify-center mx-auto relative">
       <Header/>
       <div className="space-y-20">
-      <Banner />
-      <About />
-      <Services />
-      <Clients />
+      <Banner/>
+      <About  />
+      <Services id="services" />
+      <Clients id="clients" />
       <Footer />
       </div>
     </div>
