@@ -8,14 +8,27 @@ import { About } from "./components/about"
 function App() {
 
   return (
-    <div className=" flex flex-col justify-center mx-auto relative">
-      <Header/>
-      <div className="space-y-20">
-      <Banner/>
-      <About  />
-      <Services id="services" />
-      <Clients id="clients" />
-      <Footer />
+    <div id="inicio" className="flex flex-col justify-center mx-auto relative">
+      <Header />
+
+      <div className="space-y-20 mt-20">
+        <div >
+          <Banner />
+        </div>
+
+        <div id="about">
+          <About />
+        </div>
+
+        <div id="services" >
+          <Services />
+        </div>
+
+        <div id="clients">
+          <Clients />
+        </div>
+
+        <Footer />
       </div>
     </div>
   )
