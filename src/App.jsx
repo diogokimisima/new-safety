@@ -4,6 +4,7 @@ import { Footer } from "./components/footer"
 import { Header } from "./components/header"
 import { Services } from "./components/services/services"
 import { About } from "./components/about"
+import { Contact } from "./components/contact"
 
 function App() {
 
@@ -26,6 +27,10 @@ function App() {
 
         <div id="clients">
           <Clients />
+        </div>
+
+        <div>
+          <Contact />
         </div>
 
         <Footer />

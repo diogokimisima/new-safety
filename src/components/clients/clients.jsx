@@ -16,9 +16,10 @@ import { LogoClients } from "./logo-clients"
 export function Clients() {
     return (
         <div className="space-y-10">
-            <div className="flex justify-center border-b-4 border-emerald-600 mx-[500px] pb-3">
-                <h2 className="text-blue-950 font-bold text-3xl">CLIENTES</h2>
-            </div>
+            <h2 className="text-emerald-950 mb-10 text-3xl text-center font-bold relative">
+                CLIENTES
+                <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto"></span>
+            </h2>
             <div className="flex flex-wrap justify-center align-center gap-x-36 gap-y-5">
                 <LogoClients image={Cliente1} />
                 <LogoClients image={Cliente2} />

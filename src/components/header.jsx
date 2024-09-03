@@ -17,16 +17,16 @@ export function Header() {
       <nav className="flex">
         <div className="md:hidden">
           <button onClick={toggleMenu} aria-label="Toggle menu">
-            {isMenuOpen ? <X /> : <Menu />}
+            {isMenuOpen ? <X className="w-8 h-8"/> : <Menu className="w-8 h-8"/>}
           </button>
         </div>
 
         <div className={`hidden md:flex gap-10`}>
-          <a className='link-topo' href="#inicio">Início</a>
-          <a className='link-topo' href="#about">Sobre</a>
-          <a className='link-topo' href="#services">Serviços</a>
-          <a className='link-topo' href="#clients">Clientes</a>
-          <a className='link-topo' href="#contatos">Contatos</a>
+          <a className='link-topo uppercase' href="#inicio">Início</a>
+          <a className='link-topo uppercase' href="#about">Sobre</a>
+          <a className='link-topo uppercase' href="#services">Serviços</a>
+          <a className='link-topo uppercase' href="#clients">Clientes</a>
+          <a className='link-topo uppercase' href="#contatos">Contatos</a>
         </div>
 
 
