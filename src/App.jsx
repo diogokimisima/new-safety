@@ -21,7 +21,7 @@ function App() {
           <About />
         </div>
 
-        <div id="services" >
+        <div>
           <Services />
         </div>
 

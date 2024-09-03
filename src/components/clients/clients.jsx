@@ -16,7 +16,7 @@ import { LogoClients } from "./logo-clients"
 export function Clients() {
     return (
         <div className="space-y-10">
-            <h2 className="text-emerald-950 mb-10 text-3xl text-center font-bold relative">
+            <h2 className="text-emerald-950 mb-10 text-2xl lg:text-3xl text-center font-bold relative">
                 CLIENTES
                 <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto"></span>
             </h2>

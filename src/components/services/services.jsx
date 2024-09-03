@@ -6,12 +6,12 @@ import Values from '../../assets/valor.png'
 export function Services() {
     return (
         <div className="flex flex-col justify-center align-center ">
-            <h2 className="text-emerald-950 mb-10 text-3xl text-center font-bold relative">
+            <h2 className="text-emerald-950 mb-10 text-2xl lg:text-3xl text-center font-bold relative">
                 SERVIÇOS
                 <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto"></span>
             </h2>
 
-            <div className="flex justify-center flex-wrap gap-x-14 ">
+            <div className="flex justify-center flex-wrap gap-x-14 gap-y-8">
                 <CardServices
                     title="Missão"
                     description="Gerenciar os riscos ocupacionais de forma equilibrada e estratégica, através de soluções informatizadas e indicação de medidas de prevenção de acidentes do trabalho, com o objetivo de proteger a vida e a sociedade, manter ambientes de trabalho saudáveis e garantir a conformidade legal e a sustentabilidade de seus negócios "
