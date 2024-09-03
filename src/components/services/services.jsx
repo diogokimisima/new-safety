@@ -5,7 +5,7 @@ import Values from '../../assets/valor.png'
 
 export function Services() {
     return (
-        <div className="flex flex-wrap justify-center align-center gap-4">
+        <div className="flex flex-wrap justify-center align-center gap-x-14">
             <CardServices
                 title="Missão"
                 description="Gerenciar os riscos ocupacionais de forma equilibrada e estratégica, através de soluções informatizadas e indicação de medidas de prevenção de acidentes do trabalho, com o objetivo de proteger a vida e a sociedade, manter ambientes de trabalho saudáveis e garantir a conformidade legal e a sustentabilidade de seus negócios "
