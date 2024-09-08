@@ -31,9 +31,10 @@ function App() {
 
         <div>
           <Contact />
+          <Footer />
         </div>
 
-        <Footer />
+
       </div>
     </div>
   )

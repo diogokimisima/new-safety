@@ -5,9 +5,9 @@ import Values from '../../assets/valor.png'
 
 export function Services() {
     return (
-        <div className="flex flex-col justify-center align-center ">
+        <div className="flex flex-col justify-center align-center bg-[#f5f5f5] py-6">
             <h2 className="text-blue-950 mb-10 text-2xl lg:text-3xl text-center font-bold relative">
-                SERVIÇOS
+                PROPÓSITOS
                 <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto"></span>
             </h2>
 
