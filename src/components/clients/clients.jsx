@@ -20,7 +20,7 @@ export function Clients() {
                 CLIENTES
                 <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto"></span>
             </h2>
-            <div className="flex flex-wrap justify-center align-center gap-x-36 gap-y-5">
+            <div className="flex flex-wrap justify-center align-center  gap-x-20 gap-y-5 sm:gap-x-36">
                 <LogoClients image={Cliente1} />
                 <LogoClients image={Cliente2} />
                 <LogoClients image={Cliente3} />

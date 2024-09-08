@@ -4,7 +4,7 @@ export function LogoClients({ image })
 {
     return(
         <div>
-            <img className='h-36 w-36 object-contain' src={image} alt="logo" />
+            <img className='h-28 w-28 object-contain sm:h-36 sm:w-36' src={image} alt="logo" />
         </div>
     )
 }
