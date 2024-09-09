@@ -26,20 +26,22 @@ export function Header() {
         <div className="hidden md:flex gap-10">
           <a className='link-topo uppercase' href="#inicio">Início</a>
           <a className='link-topo uppercase' href="#about">Sobre</a>
+          <a className='link-topo uppercase' href="#proposito">Propósitos</a>
           <a className='link-topo uppercase' href="#services">Serviços</a>
           <a className='link-topo uppercase' href="#clients">Clientes</a>
-          <a className='link-topo uppercase' href="#contatos">Contatos</a>
+          <a className='link-topo uppercase' href="#contact">Contatos</a>
         </div>
 
         {/* Menu para mobile com animação */}
         <div className={`lg:hidden absolute top-16 right-0 w-full bg-white shadow-lg flex flex-col items-center gap-5 transition-all duration-500 ease-in-out overflow-hidden ${
-          isMenuOpen ? 'max-h-96 opacity-100' : 'max-h-0 opacity-0'
+          isMenuOpen ? 'p-4 max-h-96 opacity-100' : 'max-h-0 opacity-0'
         }`}>
           <a className='link-topo' href="#inicio" onClick={toggleMenu}>Início</a>
           <a className='link-topo' href="#about" onClick={toggleMenu}>Sobre</a>
+          <a className='link-topo' href="#proposito" onClick={toggleMenu}>Propósitos</a>
           <a className='link-topo' href="#services" onClick={toggleMenu}>Serviços</a>
           <a className='link-topo' href="#clients" onClick={toggleMenu}>Clientes</a>
-          <a className='link-topo' href="#contatos" onClick={toggleMenu}>Contatos</a>
+          <a className='link-topo' href="#contact" onClick={toggleMenu}>Contatos</a>
         </div>
       </nav>
     </header>
