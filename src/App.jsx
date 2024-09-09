@@ -5,12 +5,14 @@ import { Header } from "./components/header"
 import { Services } from "./components/services/services"
 import { About } from "./components/about"
 import { Contact } from "./components/contact"
+import { WhatsIcon } from "./components/whatsIcon"
 
 function App() {
 
   return (
     <div id="inicio" className="flex flex-col justify-center mx-auto relative">
       <Header />
+      <WhatsIcon />
 
       <div className="space-y-20 mt-20">
         <div >
@@ -33,8 +35,6 @@ function App() {
           <Contact />
           <Footer />
         </div>
-
-
       </div>
     </div>
   )

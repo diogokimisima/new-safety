@@ -13,7 +13,7 @@ export function Contact() {
             <div className='flex flex-col justify-center items-center '>
                 <img className='rounded-full w-36' src={FotoRafa} alt="foto-perfil"/>
                 <h2 className='text-blue-950 font-bold text-xl mt-8'>Rafael Macedo</h2>
-                <span className='text-emerald-800 font-bold'>Fundador</span>
+                <span className='text-emerald-800 font-bold'>Diretor Comercial</span>
 
                 <p className='text-center mt-10 px-7 sm:px-36'>Formado em Técnico em Segurança do Trabalho pelo IEA - Instituto Educacional de Araçatuba, Engenheiro Ambiental pela UNIFAI ( Centro Universitário de Adamantina), Pós Graduado em Engenharia de Segurança pela Universidade Paulista, Perito Judicial de Insalubridade e Periculosidade pela Universidade Vendrame, atua na área de SSMA desde o ano de 2010. Possui ampla experiência no cenário industrial e florestal.</p>
             </div>
