@@ -3,7 +3,7 @@ export function About() {
       <div id="about" className="max-w-[980px] flex flex-col mx-auto px-10">
         <h2 className="text-blue-950 mb-10 text-center font-bold relative text-2xl lg:text-3xl ">
           SOBRE
-          <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto"></span>
+          <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto" />
         </h2>
   
         <p className="text-center">

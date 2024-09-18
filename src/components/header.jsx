@@ -17,19 +17,19 @@ export function Header() {
       <nav className="flex">
         {/* Botão para mobile */}
         <div className="md:hidden">
-          <button onClick={toggleMenu} aria-label="Toggle menu">
+          <button type='button' onClick={toggleMenu} aria-label="Toggle menu">
             {isMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
           </button>
         </div>
 
         {/* Links para desktop */}
         <div className="hidden md:flex gap-10">
-          <a className='link-topo uppercase' href="#inicio">Início</a>
-          <a className='link-topo uppercase' href="#about">Sobre</a>
-          <a className='link-topo uppercase' href="#proposito">Propósitos</a>
-          <a className='link-topo uppercase' href="#services">Serviços</a>
-          <a className='link-topo uppercase' href="#clients">Clientes</a>
-          <a className='link-topo uppercase' href="#contact">Contatos</a>
+          <a className='link-topo uppercase text-sm lg:text-base' href="#inicio">Início</a>
+          <a className='link-topo uppercase text-sm lg:text-base' href="#about">Sobre</a>
+          <a className='link-topo uppercase text-sm lg:text-base' href="#proposito">Propósitos</a>
+          <a className='link-topo uppercase text-sm lg:text-base' href="#services">Serviços</a>
+          <a className='link-topo uppercase text-sm lg:text-base' href="#clients">Clientes</a>
+          <a className='link-topo uppercase text-sm lg:text-base' href="#contact">Contatos</a>
         </div>
 
         {/* Menu para mobile com animação */}

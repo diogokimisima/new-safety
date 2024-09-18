@@ -18,9 +18,9 @@ export function Clients() {
         <div className="space-y-10">
             <h2 className="text-emerald-950 mb-10 text-2xl lg:text-3xl text-center font-bold relative">
                 CLIENTES
-                <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto"></span>
+                <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto" />
             </h2>
-            <div className="flex flex-wrap justify-center align-center  gap-x-20 gap-y-5 sm:gap-x-36">
+            <div className="flex flex-wrap justify-center align-center gap-x-20 gap-y-5  px-10 sm:gap-x-36">
                 <LogoClients image={Cliente1} />
                 <LogoClients image={Cliente2} />
                 <LogoClients image={Cliente3} />
