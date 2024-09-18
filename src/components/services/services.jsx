@@ -11,7 +11,7 @@ export function Services() {
                 <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto" />
             </h2>
 
-            <div className="flex justify-center flex-wrap gap-x-14 gap-y-8">
+            <div className="flex justify-center flex-wrap gap-x-14 gap-y-14">
                 <CardServices
                     title="Missão"
                     description="Gerenciar os riscos ocupacionais de forma equilibrada e estratégica, através de soluções informatizadas e indicação de medidas de prevenção de acidentes do trabalho, com o objetivo de proteger a vida e a sociedade, manter ambientes de trabalho saudáveis e garantir a conformidade legal e a sustentabilidade de seus negócios "
