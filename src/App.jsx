@@ -4,8 +4,8 @@ import { Footer } from "./components/footer"
 import { Header } from "./components/header"
 import { Services } from "./components/services/services"
 import { About } from "./components/about"
-import { Contact } from "./components/contact"
 import { WhatsIcon } from "./components/whatsIcon"
+import { Contact } from "./components/contacts/contact"
 
 function App() {
 
