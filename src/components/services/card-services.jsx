@@ -2,8 +2,8 @@ import { CheckParagraph } from './check-paragraph';
 
 export function CardServices() {
     return (
-        <div className='space-y-10'>
-            <div className='flex justify-center items-center flex-col px-4 bg-white rounded-xl p-10 m-5 custom-shadow xl:flex-row gap-y-10'>
+        <div className='space-y-10 '>
+            <div className='flex justify-center items-center flex-col px-4 bg-white rounded-xl p-10 m-5 custom-shadow xl:flex-row gap-y-10 gap-x-5'>
                 <div className='flex-1 flex flex-col gap-y-4 '>
                     <h2 className='md:text-2xl text-xl text-blue-950 font-bold'>Laudos e Programas</h2>
                     <p className='leading-relaxed text-sm md:text-base'>
@@ -35,7 +35,7 @@ export function CardServices() {
                 </div>
             </div>
 
-            <div className='flex justify-center items-center flex-col px-4 bg-white rounded-xl p-10 m-5 custom-shadow xl:flex-row gap-y-10'>
+            <div className='flex justify-center items-center flex-col px-4 bg-white rounded-xl p-10 m-5 custom-shadow xl:flex-row gap-y-10 gap-x-5'>
                 <div className='flex-1 flex flex-col gap-y-4'>
                     <h2 className='md:text-2xl text-xl text-blue-950 font-bold '>Envio dos Eventos SST na Plataforma eSocial</h2>
                     <p className='leading-relaxed text-sm md:text-base'>
@@ -55,7 +55,7 @@ export function CardServices() {
                 </div>
             </div>
 
-            <div className='flex justify-center items-center flex-col px-4 bg-white rounded-xl p-10 m-5 custom-shadow xl:flex-row gap-y-10'>
+            <div className='flex justify-center items-center flex-col px-4 bg-white rounded-xl p-10 m-5 custom-shadow xl:flex-row gap-y-10 gap-x-5'>
                 <div className='flex-1 flex flex-col gap-y-4'>
                     <h2 className='md:text-2xl text-xl text-blue-950 font-bold'>Treinamentos Normativos</h2>
                     <p className='leading-relaxed text-sm md:text-base'>

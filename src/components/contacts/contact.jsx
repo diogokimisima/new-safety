@@ -7,7 +7,7 @@ import { ContactCard } from './contact-card'
 
 export function Contact() {
     return (
-        <div className='space-y-10 bg-[#f5f5f5] py-6 '>
+        <div className='space-y-10 bg-neutral-50 py-6 '>
             <h2 className="text-blue-950 mb-10 text-2xl lg:text-3xl text-center font-bold relative">
                 Contato
                 <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto" />

@@ -5,7 +5,7 @@ import Values from '../../assets/valor.png'
 
 export function Purpose() {
     return (
-        <div className="flex flex-col justify-center align-center py-6">
+        <div className="flex flex-col justify-center align-center">
             <h2 className="text-blue-950 mb-10 text-2xl lg:text-3xl text-center font-bold relative">
                 PROPÓSITOS
                 <span className="block mt-2 border-t-4 border-emerald-700 w-1/4 mx-auto" />
@@ -20,7 +20,7 @@ export function Purpose() {
 
                 <CardServices
                     title="Visão"
-                    description="Proporcionar uma nova percepção para a segurança e saúde no trabalho do Brasil"
+                    description="Transformar a cultura de segurança e saúde no trabalho no Brasil, promovendo ambientes de trabalho mais seguros e saudáveis. Buscamos ser líderes em inovação e conscientização, inspirando empresas e colaboradores a adotar práticas proativas que priorizem a prevenção e o bem-estar, assegurando um futuro sustentável para todos."
                     image={Vision}
                 />
 

@@ -10,20 +10,20 @@ export function Header() {
   };
 
   return (
-    <header className="flex items-center w-full px-12 py-5 bg-white fixed top-0 z-50">
+    <header className="flex items-center w-full px-12 py-4 bg-white fixed top-0 z-50 shadow-lg">
       <div className="flex-1">
         <img className="h-12" src={Logo} alt="logo" />
       </div>
       <nav className="flex">
         {/* Botão para mobile */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <button type='button' onClick={toggleMenu} aria-label="Toggle menu">
             {isMenuOpen ? <X className="w-8 h-8" /> : <Menu className="w-8 h-8" />}
           </button>
         </div>
 
         {/* Links para desktop */}
-        <div className="hidden md:flex gap-10">
+        <div className="hidden lg:flex gap-10">
           <a className='link-topo uppercase text-sm lg:text-base' href="#inicio">Início</a>
           <a className='link-topo uppercase text-sm lg:text-base' href="#about">Sobre</a>
           <a className='link-topo uppercase text-sm lg:text-base' href="#proposito">Propósitos</a>

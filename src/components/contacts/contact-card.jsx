@@ -5,7 +5,7 @@ export function ContactCard({ image, name ,description, positionJob }){
             <h2 className='text-blue-950 font-bold text-xl mt-8'>{name}</h2>
             <span className='text-emerald-800 font-bold'>{positionJob}</span>
 
-            <p className='text-center mt-10 max-w-[550px] text-sm lg:text-base px-4'>{description}</p>
+            <p className='leading-relaxed text-center mt-10 max-w-[550px] text-sm lg:text-base px-4'>{description}</p>
         </div>
     )
 }

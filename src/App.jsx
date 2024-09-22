@@ -49,16 +49,12 @@ function App() {
 
       <motion.div className="space-y-20 mt-20">
         <motion.div 
-          variants={childVariants} // Animação para cada componente filho
-        >
-          <Banner />
-        </motion.div>
-
-        <motion.div 
           id="about" 
           variants={childVariants}
-          className="bg-[#f5f5f5]" // Animação para cada componente filho
+          // className="bg-[#f5f5f5]"
+          className="bg-neutral-50"
         >
+          <Banner />
           <About />
         </motion.div>
 
