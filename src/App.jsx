@@ -56,7 +56,8 @@ function App() {
 
         <motion.div 
           id="about" 
-          variants={childVariants} // Animação para cada componente filho
+          variants={childVariants}
+          className="bg-[#f5f5f5]" // Animação para cada componente filho
         >
           <About />
         </motion.div>
