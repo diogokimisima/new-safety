@@ -1,5 +1,3 @@
-import PropTypes from 'prop-types';
-
 export function LogoClients({ image })
 {
     return(
@@ -8,8 +6,3 @@ export function LogoClients({ image })
         </div>
     )
 }
-
-LogoClients.propTypes = {
-    image: PropTypes.string.isRequired,
-  };
-  
